@@ -1,4 +1,4 @@
-var numeroSecreto = Math.floor(Math.random() * (1001 - 1) + 1);
+var numeroSecreto = parseInt(Math.random() * 1001);
 var tentativas = 10;
 
 while (tentativas > 0) {
